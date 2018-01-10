@@ -23,6 +23,4 @@ class Dog
 
 end
 
-    fido = Dog.new("fido"," "golden_retriever")
-    fido.name = "Fido"
     
