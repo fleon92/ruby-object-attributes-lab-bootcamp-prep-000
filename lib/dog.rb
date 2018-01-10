@@ -17,10 +17,12 @@ class Dog
     @name
   end
  
-  def name=(new_breed)
+  def breed=(new_breed)
     @breed = new_breed
   end
 
 end
 
+    fido = Dog.new("Fido, "Golden Retriever")
+    fido.name = "Fido"
     
